@@ -18,8 +18,8 @@
     "unit": {
       "type": "enumeration",
       "enum": [
-        "liter",
-        "gram"
+        "Liter",
+        "Gramm"
       ]
     },
     "recipes": {
