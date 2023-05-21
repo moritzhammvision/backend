@@ -14,12 +14,6 @@
     "name": {
       "type": "text"
     },
-    "ingredients": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::ingredient.ingredient",
-      "inversedBy": "recipes"
-    },
     "requiredTime": {
       "type": "biginteger"
     }
