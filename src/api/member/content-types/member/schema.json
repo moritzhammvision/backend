@@ -4,7 +4,8 @@
   "info": {
     "singularName": "member",
     "pluralName": "members",
-    "displayName": "member"
+    "displayName": "member",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,7 +16,11 @@
       "type": "string"
     },
     "password": {
-      "type": "password"
+      "type": "password",
+      "required": false
+    },
+    "pw": {
+      "type": "string"
     }
   }
 }
